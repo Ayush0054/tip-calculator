@@ -1,5 +1,5 @@
 # tip-calculator
-tip calculator made with tailwind and js
+tip calculator made with tailwind and js.
 this calculator ,calculates the tip of bill in two category 
 1. if bill is between 50 to 300 dollars then it will calculate 15% amount of bill
 2. if bill is above 300 dollars then it will calculate 20% amount of bill
