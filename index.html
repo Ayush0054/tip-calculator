@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title> </title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body  class="bg-gradient-to-r from-indigo-500 via-purple-500 to-green-500">
+        <div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-purple-900 shadow-lg border rounded-lg md:w-3/6 sm:w-4/6">
+          <div class="">
+            <div class="p-5 text-white text-center text-3xl bg-purple-900"><span class="text-orange-500">Calcu</span>lator</div>
+            <div class="cal pt-16 p-5 pb-0 text-white text-right text-3xl bg-purple-800">
+              <label for="phone" class="block mb-2 text-lg font-medium text-gray-900 dark:text-gray-300">enter bill amount</label>
+              <input type="text" id="billamt" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-purple-700 dark:border-purple-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-purple-500 dark:focus:border-purple-800" placeholder="$" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+            </div>
+            <div id="totalTip" class=" p-5 text-white text-right text-3xl bg-purple-800">$<span id="tip" class="text-orange-500">00</span></div>
+
+
+
+
+          <button type="submit" id="calculate"  class="group relative flex w-full justify-center bg-purple-500 hover:bg-purple-400 text-white  font-bold py-2 px-8 border-b-4 border-purple-700 hover:border-violet-500 rounded">
+           calculate
+          </button>
+         
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
